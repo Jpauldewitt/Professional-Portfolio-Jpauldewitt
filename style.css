@@ -1,0 +1,351 @@
+* {
+  font-family: sans-serif;
+  line-height: 1.25em;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  margin-top: 1em;
+  background-image: url;
+  background-repeat: no-repeat;
+  border-style: solid;
+  border-radius: 1px;
+  color: white;
+  background-repeat: repeat;
+  background-image: url("images/mainGeometricBackground.jpg");
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/geometricBackgroundPic.jpg");
+}
+
+.navbar a {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  padding: 0.5em 2em;
+  color: white;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 1px;
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: rgb(243, 0, 243);
+  color: white;
+  font-weight: bold;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  max-width: 1000px;
+  margin-top: 1em;
+}
+
+.top {
+  display: grid;
+  padding: 0.25em;
+  grid-column-gap: 1em;
+  margin-top: 4em;
+  margin-bottom: 1em;
+  grid-template-columns: 360px 640px;
+  max-width: 1000px;
+  border-style: solid;
+  border-radius: 1px;
+  color: white;
+  background-image: url("images/geometricBackgroundPic.jpg");
+}
+
+.header > h1 {
+  display: flex;
+  color: white;
+  font-size: 48px;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  margin-left: 0.2em;
+  padding-left: 0.3em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+.header > h2 {
+  display: flex;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 0.5em;
+  margin-left: 0.2em;
+  margin-left: 0.4em;
+  padding-left: 2.5em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+.header > img {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-left: 0.6em;
+  margin-bottom: 0.5em;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: white;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+#artwork {
+  width: 590px;
+  display: block;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#artwork h4 {
+  display: block;
+  padding: 0.5;
+  font-size: 20px;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#artwork art img {
+  margin-top: 2.5em;
+  width: 70%;
+  display: block;
+  padding: 0.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: white;
+  border-radius: 1px;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+.aboutMeDescription {
+  padding: 0.5em;
+  width: 900;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/geometricBackgroundPic.jpg");
+}
+
+.aboutMeDescription h3 {
+  font-size: 24px;
+  margin-top: 0.5em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  padding: 0.5em;
+  padding-left: 0.3em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+.aboutMeDescription > p {
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  border-style: solid;
+  border-radius: 1px;
+  background-color: seashell;
+  font-size: 16px;
+  color: black;
+  border-color: seashell;
+}
+
+#skills {
+  padding: 0.5em;
+  width: 900;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/geometricBackgroundPic.jpg");
+}
+
+#skills h3 {
+  font-size: 24px;
+  margin-top: 0.5em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  padding: 0.5em;
+  padding-left: 0.3em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+#skills > p {
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  border-style: solid;
+  border-radius: 1px;
+  background-color: seashell;
+  font-size: 16px;
+  color: black;
+  border-color: seashell;
+}
+
+#myProjects {
+  display: grid;
+  padding: 0.5em;
+  border-style: solid;
+  border-radius: 1px;
+  width: 98%;
+  margin-bottom: 1em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/geometricBackgroundPic.jpg");
+  color: seashell;
+}
+
+#myProjects h3 {
+  display: flex;
+  font-size: 24px;
+  margin-top: 0.5em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  padding-left: 0.3em;
+  padding: 0.5em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  border-style: solid;
+  border-radius: 1px;
+  grid-column-gap: 0.25em;
+  font-size: 14px;
+  margin-top: 0.5em;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+#projects article {
+  padding: 0.5em;
+  border-bottom: 1em;
+  background-image: url("images/geometricBackgroundPic.jpg");
+}
+#myProjects p {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0.5em;
+  border-color: seashell;
+  border-style: solid;
+  border-radius: 0.5px;
+  margin-left: 0.6em;
+  margin-right: 0.6em;
+  margin-bottom: 0.5em;
+  background-color: seashell;
+  font-size: 16px;
+  color: black;
+}
+
+#projects article h3 {
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  font-size: 24px;
+  text-align: center;
+  padding: 0.25em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+#projects article p {
+  margin-bottom: 0.5em;
+  margin-top: 1em;
+  font-size: 14px;
+  text-align: center;
+  padding: 0.25em;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+#projects article img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 0.25em;
+  margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  width: 70%;
+  height: 65%;
+  border-style: solid;
+  border-radius: 100px;
+}
+
+#projects article img:hover {
+  border-color: rgb(153, 255, 0);
+}
+
+#contactInformation {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+  padding: 0.25em;
+  border-style: solid;
+  border-radius: 1px;
+  background-color: white;
+  background-image: url("images/geometricBackgroundPic.jpg");
+}
+
+#contactInformation h3 {
+  display: flex;
+  font-size: 24px;
+  margin-top: 0.5em;
+  margin-left: 0.4em;
+  margin-right: 0.4em;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  padding-left: 0.3em;
+  border-style: solid;
+  border-radius: 1px;
+  background-image: url("images/blueAndPurpleBackground.jpg");
+}
+
+#contactInformation li {
+  color: black;
+  width: 40%;
+  padding: 1em;
+  margin-top: 0.25em;
+  margin-bottom: 1em;
+  margin-left: 17em;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: rgb(153, 255, 0);
+  list-style-type: none;
+  font-size: 16px;
+  background-color: white;
+  border-radius: 100px;
+}
+
+#contactInformation a:hover {
+  font-weight: bold;
+  font-size: larger;
+  background-color: greenyellow;
+}
